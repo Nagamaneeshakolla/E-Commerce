@@ -1,0 +1,822 @@
+<html>
+<head>
+<style>
+*
+{
+margin:0px;
+}
+#back{
+width:100%;
+background-color:aliceblue;
+}
+#head{
+width:100%;
+height:15%;
+background-color:white;
+margin-top:10px;
+}
+#he{
+font-color:35px;
+font-size:40px;
+font-family:cooperblack;
+color:blue;
+float:left;
+margin-left:50px;
+margin-top:8px;
+}
+#head input{
+background-color:aliceblue;
+width:30%;
+border-radius:7px;
+padding:15px;
+margin-top:15px;
+margin-left:15px;
+border:none;
+}
+select{
+padding:15px;
+border:none;
+font-size:20px;
+border-radius:10px;
+margin-left:18px;
+}
+select:hover
+{
+background-color:blue;
+}
+a{
+font-size:20px;
+text-decoration:none;
+margin-left:25px;
+}
+#select{
+width:100%;
+height:22%;
+background-color:white;
+margin-top:10px;
+margin-left:10px;
+padding:10px;
+}
+#select figure{
+display:inline-block;
+margin-right:10px;
+}
+#select figcaption{
+text-align:center;
+}
+#update{
+width:100%;
+height:35%;
+background-color:white;
+margin-top:15px;
+}
+#update img{
+width:100%;
+height:100%;
+}
+#offer{
+width:100%;
+height:37%;
+background-color:white;
+margin-top:10px;
+}
+#zoom{
+width:75%;
+background-color:white;
+margin-top:10px;
+float:left;
+}
+#a
+{
+transition:1s;
+}
+#a img
+{
+display:inline-block;
+}
+#a img:hover
+{
+transform:scale(1.1);
+z-index:3;
+}
+#si
+{
+float:right;
+background-color:white;
+width:25%;
+margin-top:5px;
+}
+#en
+{
+width:100%;
+margin-top:5px;
+}
+#en1
+{
+width:100%;
+margin-top:5px;
+}
+#en2
+{
+width:100%;
+margin-top:5px;
+}
+#phone
+{
+width:100%;
+height:50%;
+margin:0 auto;
+background-color:white;
+}
+#a2
+{
+transition:1s;
+}
+#a2 figure
+{
+display:inline-block;
+border:1px solid black;
+border-radius:5px;
+padding:25px;
+margin-left:5px;
+}
+#a2 img:hover
+{
+transform:scale(1.2);
+z-index:1.3;
+}
+#feature
+{
+width:100%;
+height:52%;
+margin-top:13px;
+background-color:white;
+}
+#a3
+{
+border-radius:5px;
+}
+#tv
+{
+width:100%;
+height:48%;
+margin-top:5px;
+background-color:white;
+}
+#a4
+{
+transition:1s;
+display:inline-block;
+
+}
+#a4 figure
+{
+display:inline-block;
+border:1px solid black;
+border-radius:3px;
+padding:5px;
+}
+#a4 img:hover
+{
+transform:scale(1.2);
+z-index:1.3;
+}
+#add
+{
+width:100%;
+height:40%;
+background-color:white;
+margin-top:5px;
+}
+#add img
+{display:inline-block;
+}
+#bet
+{
+width:100%;
+height:49%;
+background-color:white;
+}
+#a5
+{
+transition:1s;
+}
+#a5 figure
+{
+display:inline-block;
+border:1px solid black;
+border-radius:3px;
+}
+#a5 img:hover
+{
+transform:scale(1.1);
+z-index:1.3
+}
+#m
+{
+width:100%;
+height:30%;
+background-color:white;
+}
+#B
+{
+width:100%;
+height:100%
+background-color:lightgray;
+}
+#B h3
+{
+color:gray;
+}
+#C
+{
+width:100%;
+height:40%;
+background-color:black;
+display:flex;
+}
+#sub
+{
+width:200%;
+height:40%;
+display:flex;
+background-color:black;
+float:left;
+}
+#C h4
+{
+color:gray;
+margin-top:13px;
+margin-left:50px;
+}
+#C h5
+{
+color:white;
+margin-left:50px;
+}
+#D h4
+{
+color:gray;
+margin-top:50px;
+margin-left:50px;
+}
+#D h5
+{
+color:white;
+margin-left:50px;
+}
+#E h4
+{
+color:gray;
+margin-top:50px;
+margin-left:50px;
+}
+#E h5
+{
+color:white;
+margin-left:50px;
+}
+#F h4
+{
+color:gray;
+margin-top:50px;
+margin-left:50px;
+}
+#F h5
+{
+color:white;
+margin-left:50px;
+}
+#subb
+{
+width:140%;
+height:40%;
+background-color:black;
+margin-left:10px;
+display:flex;
+float:right;
+
+}
+#subb h4
+{
+color:gray;
+margin-top:50px;
+margin-left:50px;
+}
+#subb h5
+{
+color:white;
+margin-left:50px;
+}
+#AC
+{
+width:100%;
+height:14%;
+background-color:black;
+display:flex;
+}
+#AC h3
+{
+color:white;
+padding:50px;
+margin-bottom:20px;
+}
+</style>
+<body>
+<div id="back">
+<div id="head">
+<h1 id="he">E-Commerce</h1>
+<input type="text" placeholder="Search for Products,Brand and More">
+<select style="font-size:30px" name="login">
+<option name=" ">Login</option>
+<option name=" ">My Profile</option>
+<option name=" ">Flipkart Plus Zone</option>
+<option name=" ">Orders</option>
+<option name=" ">Rewards</option>
+<option name=" ">Gift Cards</option>
+</select>
+<a style="font-size:30px" href="">Cart</a>
+<a style="font-size:30px" href="">Become a Seller</a>
+</div>
+<div id="select">
+<figure>
+<img src="top.jpg">
+<figcaption style="font-size:25px">Top Offers</figcaption>
+</figure>
+<figure>
+<img src="mobiles.jpg">
+<figcaption style="font-size:25px">Mobiles</figcaption>
+</figure>
+<figure>
+<img src="app.jpg">
+<figcaption style="font-size:25px">Appliances</figcaption>
+</figure>
+<figure>
+<img src="clothes.jpg">
+<figcaption style="font-size:25px">Fashion</figcaption>
+</figure>
+<figure>
+<img src="beauty.jpg">
+<figcaption style="font-size:25px">Beauty</figcaption>
+</figure>
+<figure>
+<img src="home.jpg">
+<figcaption style="font-size:25px">Home,Kitchen</figcaption>
+</figure>
+<figure>
+<img src="electro.jpg">
+<figcaption style="font-size:25px">Electronics</figcaption>
+</figure>
+<figure>
+<img src="travel.jpg">
+<figcaption style="font-size:25px">Travel</figcaption>
+</figure>
+<figure>
+<img src="fur.jpg">
+<figcaption style="font-size:25px">Furniture</figcaption>
+</figure>
+<figure>
+<img src="gro.jpg">
+<figcaption style="font-size:25px">Grocery</figcaption>
+</figure>
+</div>
+<div id="offer">
+<img src="offer.webp">
+</div>
+<div id="update">
+<marquee scrollamount=15>
+<img src="1.webp">
+<img src="2.webp">
+<img src="3.webp">
+<img src="4.webp"></marquee>
+</div>
+<div id="zoom">
+<aside id="a">
+<h1 font-size=30px>Best Of Electronics</h1>
+<img src="cam.jpg">
+<img src="printer.jpg">
+<img src="best.jpg">
+<img src="proj.jpg">
+</aside>
+</div>
+<div id="si">
+<img src="side.jpg" width="360px" height="400px">
+</div>
+</div>
+<div id="en">
+<img src="big.jpg" width="100%">
+</div>
+<div id="en1">
+<img src="big1.jpg" width="100%">
+</div>
+<div id="en2">
+<img src="big2.jpg" width="100%">
+</div>
+<div id="phone">
+<h1 font-size:30px>Deal On SmartPhones</h1>
+<aside id="a2">
+<figure>
+<img src="moto.jpg">
+<figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+<figure><img src="edge.jpg"><figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+<figure>
+<img src="cmf.jpg"><figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+<figure><img src="galaxy.jpg" ><figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+<figure>
+<img src="new.jpg" height="250px"><figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+<figure>
+<img src="galaxy.jpg" height="250px"><figcaption><pre>Moto G85 5G
+<b>50MP OSI Cam|6000mAh<b></pre></figcaption></figure>
+</aside>
+</div>
+<div id="feature">
+<h1 font-size=30px>Featured Brands</h1><br>
+<aside id="a3">
+<img src="safari.jpg" width=450px height=330px>
+<img src="boult.jpg" width=450px height=330px>
+<img src="msi.jpg" width=453px height=330px>
+<img src="noise.jpg" height=330px>
+</aside>
+</div>
+<div id="tv">
+<h1>TVs And Appliances</h1><br>
+<aside id="a4">
+<figure>
+<img src="tv.jpg" width=200px height="210px"><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+<figure>
+<img src="kitchen.jpg" width=200px><figcaption><pre>Kitchen Essentials
+Under #&8377 3999</pre></figcation></figure>
+<figure>
+<img src="washing.jpg" width=200px><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+<figure>
+<img src="refri.jpg" width=200px><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+<figure>
+<img src="fan.jpg" width=200px><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+<figure>
+<img src="homes.jpg" width=200px><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+<figure>
+<img src="ac.jpg" width=200px><figcaption><pre>4k smart Tvs
+LG,SONY &more</pre></figcation></figure>
+</aside>
+</div>
+<div id="add">
+<img src="sams.jpg" width=500px>
+<img src="up.jpg" width=500px>
+<img src="just.jpg" width=500px height=270px>
+</div>
+<div id="bet">
+<h1 font-size=30px>Beauty And Grooming</h1><br>
+<aside id="a5">
+<figure>
+<img src="sham.jpg" height="250px"><figcaption><pre>Shampoo
+Upto 50% Offer</pre></figcaption></figure>
+<figure>
+<img src="per.jpg" height="250px"><figcaption><pre>Perfumes
+Upto 60% Offer</pre></figcaption></figure>
+<figure>
+<img src="toy.jpg" height="250px"><figcaption><pre>Top Deals On Toys
+From #&8377 69</pre></figcaption></figure>
+<figure>
+<img src="food.jpg" height="250px"><figcaption><pre>Food Products
+Min 50% Offer</pre></figcaption></figure>
+<figure>
+<img src="wheel.jpg" height="250px"><figcaption><pre>Baby Gear
+Flat 40% Offer</pre></figcaption></figure>
+<figure>
+<img src="cyc.jpg" height="250px"><figcaption><pre>MTB Cycles
+From #&8377 2999</pre></figcaption></figure>
+<figure>
+<img src="he.jpg" height="250px"><figcaption><pre>Car and Bike Accessories
+Min 40% offer</pre></figcaption></figure>
+</aside>
+</div>
+<div id="m">
+<aside id="a6">
+<img src="las.jpg">
+</aside>
+</div>
+<div id="B">
+<h1>Top Stories:Brand Directory </h1><br><br>
+<h3><b>MOST SEARCHED FOR ON FLIPKART:</b><br></h3><br>
+<p>Flipkart Exchange | Flipkart Reset | Nothing Phone 2a Plus | Sarees | CMF by Nothing Phone 1 | Pocket
+Bazaar | Xiaomi 14 CIVI iPhone 15 | Infinix Note 40 5G | iPhone 15 Plus | iPhone 15 Pro Blue | iPhone 15
+Pro Black | vivo X Fold3 Pro | Motorola g04s | iPhone 15 Pro Max Blue | iPhone 15 Pro Max Black | Vivo
+x 100 | OnePlus Nord CE 3 Lite 5G | Spoyl Store | SAMSUNG Flip5 | SAMSUNG Fold5 | Flipkart Axis Bank
+Super Elite Credit card 5G Mobile Phones | Primebook Laptops Moto Edge 40 Grievance Redressal OPPO
+Reno7 Pro 5G iPhone 13 Help Centre Track Orders Manage Orders Return Orders Gift Cards Store |
+Flipkart Axis Bank Credit Card Pay Later MOBILES Redmi 12 5G | Realme 12+5G | Motorola G84 |
+Realme C53 | Infinix Smart 8 | Samsung Galaxy S23 5G | Samsung Galaxy S21 FE 5G Qualcomm | vivo
+V30 | Samsung Galaxy S24 5G | Samsung Galaxy S24+5G | iPhone 12 64GB iPhone 12 Pro 512GB |
+iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30i | Realme 10 Pro 5G |
+MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y12 | Oppo A12
+Motorola 5g Phone | Realme 5g Smartphone | Apple 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones |
+Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | Oppo A31 | Samsung A71 | Samsung A51 |
+Samsung A31 | iPhone 11 iPhone 11 Pro | 4G Mobile | Nokia Mobile | Samsung Mobile | iphone | Oppo
+Mobile | Vivo Mobile </p>
+<br>
+<p>CAMERA GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR |
+Nikon DSLR </p>
+</br>
+<p>LAPTOPS Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core 
+i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) |
+Realme Book Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Apple Laptops | Acer
+Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Gaming Laptops | 2 in 1 Laptops
+| Laptops | Dell latest laptops 2022 | HP latest laptops 2022 | Infinix INBook Y1 Plus | SAMSUNG Galaxy
+Book3 | 12th Gen Intel Core Laptops </p>
+<br>
+<p>TVS Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs |
+LG TV | TV | Sony TV | Samsung TV | Android Television | Iffalcon Tv | Mi TV </p>
+<br>
+<h3>LARGE APPLIANCES:</h3><br><p>Television | Washing Machines | Refrigerators | Air Conditioners | Electric
+Cookers | Electric Jug(Heater) / Travel Kettles | Induction Cooktops | Inverters / stabilizer | Irons / Iron
+Box | Mixer Grinder Juicer | Wet Grinders | Chimneys | Microwave Ovens | Vacuum Cleaners | Water
+Purifier | Fan </p>
+<br>
+<p>CLOTHING Sarees | Green bridal lehenga | Tops Apron for Doctors | Shoes | Sunglasses | Bridal
+Blouse | Half saree blouse designs | Designer blouses | Blouse designs | Shirts | Cotton saree
+blousedesigns | Tshirts | Jeans | Dresses | One pieces | Groom wedding sherwani | Designer Salwar
+Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design |
+Track Pant | Blouse neck designs | Kurtas | Party Dresses | Palazzo Suits | Anarkali | Gowns | Cut out
+dress | Salwar Suits | Kurtis | Designer Sarees | Leggings | Shorts | Georgette Sarees | Ethnic Wear |
+uppada pattu sarees | Blouse back design | Jodhpur pants </p>
+<br>
+<h3> FOOTWEAR:</h3><br><p>Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes | Boots | Bata Shoes |
+Woodland Shoes | Skechers Shoes | Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals |
+Lotto Sports Shoes | Casual | Womens Skechers Shoes | Asics Sports Shoes | Formal Shoes | School
+Shoes Shoes </p>
+<br>
+<p>GROCERIES PhonePe Grocery Voucher | Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs |
+Toilet Cleaner | Harpic Toilet Cleaner | Dettol Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta |
+Fortune Oil | Aashirvaad Atta Tea </p>
+<br>
+<p>BEST SELLING ON FLIPKART Headphones | Best Gas Geyser | Kitchen Geyser | Nutri Blenders |
+Portable Air Cooler | Best Air Cooler | Bags | Hitachi Refrigerator 3 Door | Books | Toys | Candles |
+Helmets | Wall Clocks | Baby Food | Chocolates | Cycles | Calculators | Lipsticks | Mask | Vertiv UPS |
+Fastrack Watches | Wallets | Earrings | Gold Coins | Realme Pad Mini | Handbags | conekt SW2
+Smartwatch | Mivi DuoPods a350 | Speaker Cleaner </p>
+<br>
+<p>FURNITURE Furniture | Sofas | Beds | Dining sets | Wardrobes | Mattresses | TV Units | Tables |
+Chairs | Shelves | Bean Bags | Office Chairs | Computer Table | Office Tables | Red Sofa | Wakefit Beds
+| White Sofa | Wakefit Mattress | Green Sofa | Black Sofa | Brown Sofa </p>
+<br>
+<h3>BGMH:</h3><br><p>Shampoo | Whey Protein | Homeopathy | Cricket | Cycles | Footballs | Treadmills |
+Christmas Gifts | Fitness Accessories | Online Guitar | Books Store | Musical Instrument Store | Dabur
+Chyawanprash | Baidyanath Chyawanprash | Energy Drinks | Toys | Milk Drink Mixes | Chyawanprash |
+Indian Flag | Protein Supplements</p>
+<br>
+<br>
+<br>
+<h3>Flipkart:</h3><br><h3>The One-Stop Shopping Destination</b></h3>
+<br>
+<p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store
+to another in search of the latest phone when you can find it on the Internet in a single click? Not only
+mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops,
+tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and
+lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances
+that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving
+kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to
+toys and musical instruments, we got them all covered. You name it, and you can stay assured about
+finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your
+PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+<br>
+What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure
+you'll find yourself picking up more than what you had in mind. If you are wondering why you should
+shop from Flipkart when there are multiple options available to you, well, the below will answer your
+question.</p>
+<br>
+<h3>Flipkart Plus</b></h3><br>
+<p>A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward
+programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a
+part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins &
+non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals,
+exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short,
+earn more when you shop more!</p>
+<br>
+<br>
+<p>What's more, you can even use the Flipkart supercoins for a number of exciting services, like: <br>An
+annual Zomato Gold membership <br>An annual Hotstar Premium membership<br> 6 months Gaana
+plus subscription <br>Rupees 550 instant discount on flights on ixigo <br>Check out
+https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.</p>
+<br>
+<h3>No Cost EMI</b></h3><br>
+<p>In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop
+with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large
+and small appliances, furniture, electronics and watches, you can now shop without burning a hole in
+your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI.
+Take a look ASAP! Terms and conditions apply.</p>
+<br>
+<br>
+<h3>EMI on Debit cards</h3><br>
+<p>Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14
+crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online
+shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop
+confidently with us without having to worry about pauses in monthly cash flow. At present, we have
+partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to
+all our shoppers! Terms and conditions apply.</p>
+<br>
+<br>
+<h3>Mobile Exchange Offers</h3><br>
+<p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a
+new one after the Flipkart experts calculate the value of your old phone, provided it is in a working
+condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the
+'Buy with Exchange option on the product description of the phone. So, be smart, always opt for an
+exchange wherever possible. Terms and conditions apply.</p>
+<br>
+<br>
+<h3>What Can You Buy From Flipkart?</h3><br>
+<h3>Mobile Phones </h3><br>
+<p>From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there.
+Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors,
+beautification apps, high-tech selfie cameras or just large internal space, we take care of all the
+essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and
+Honor to name a few. Rest assured, you're buying from only the most reliable names in the market.
+What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run
+around service centres. This plan entails you to a number of post-purchase solutions, starting at as low 
+as Rupees 99 onlyl Broken screens, liquid damage to phone, hardware and software glitches, and
+replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase
+problems, with door-to-door services.</p>
+<br>
+<h3>Electronic Devices And Acessories</h3><br>
+<p>When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating
+systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results
+in a flash. All you students out there, confused about what laptop to get? Our Back To College Store
+segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, 
+multitasking) with recommendations from top brands and industry experts, facilitating a shopping
+experience that is quicker and simpler.</p>
+<br>
+<br>
+<h3>Large Appliances </h3><br>
+<p>Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover
+everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures
+zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as
+per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart
+Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders
+in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi
+among many others.</p>
+<br>
+<h3>Life Style</b></h3><br>
+<p>Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything
+you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing,
+formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and
+accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21,
+Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-theladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani
+kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our inhouse brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are
+the talk of the town. Get ready to be spoiled for choice. Festivals, office get- togethers, weddings,
+brunches, or nightwear - Flipkart will have your back each time.</p>
+<br>
+<h3>Baby and Kids</b></h3>
+<p>Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting
+mother or a new mother, you will find everything you need to set sail on a smooth parenting journey
+with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on
+us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the
+most-trusted names in the business for your baby.</p>
+<br>
+<h3>Small Home Appliances</b></h3><br>
+<p>Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs,
+microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving
+appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at
+home.</p>
+<br>
+<h3>Home and Furniture </b></h3><br>
+<p>Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining
+tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options
+thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test
+of time? These are questions you must ask before you choose a store. Well, our Durability Certified
+Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer
+but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our
+furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture.
+Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, Home Town,
+Durian and Perfect Homes.</p>
+<br>
+<h3>Books,Sports and Games</b></h3><br>
+<p>Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction
+books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming
+consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get
+moving. Grocery/Supermart</p>
+<br>
+<h3>Grocery/Supermart</b></h3><br>
+<p>Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday
+essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials,
+health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything
+you need to run a house. Now buy Grocery products for as low as 1 Rupee only our 1 Rupee Store
+presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.</p>
+</div>
+<br>
+<div id="C">
+<div id="sub">
+<aside id="AB">
+<br><br><h4 id="ABO"> ABOUT </h4>
+<br>
+<a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_navlinks">
+<h5 id="CO">Contact Us </h5></a>
+<a href="https://corporate.flipkart.net/corporate-home">
+<h5 id="CO">About Us </h5></a>
+<a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks#!/">
+<h5 id="CO">Career </h5></a>
+<a href="https://stories.flipkart.com/">
+<h5 id="CO">Flipkart Stories </h5></a>
+<a href="https://stories.flipkart.com/category/top-stories/news/">
+<h5 id="CO">Press </h5></a>
+<a href="https://www.flipkart.com/corporate-information">
+<h5 id="CO">Corporate Information </h5></a>
+</aside>
+<aside id="AB">
+<div id="D"><h4>GROUP COMPANIES</h4>
+<br>
+<a href="https://www.myntra.com/">
+<h5 id="CO">Myntra </h5></a>
+<a href="https://www.cleartrip.com/">
+<h5 id="CO">Cleartrip </h5></a>
+<a href="https://www.shopsy.in/">
+<h5 id="CO">Shopsy </h5></a>
+</aside>
+<aside id="AB">
+<div id="E"><h4>HELP </h4>
+<br>
+<a href="https://www.flipkart.com/pages/payments">
+<h5 id="CO">Payments</h5></a>
+<a href="https://www.flipkart.com/pages/shipping">
+<h5 id="CO">Shipping </h5></a>
+<a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG">
+<h5 id="CO">Cancellation & Return</h5></a>
+<a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG">
+<h5 id="CO">FAQ </h5></a>
+<a href="https://seller.flipkart.com/page-not-found">
+<h5 id="CO">Report Infringement</h5></a></div>
+</aside>
+<aside id="AB">
+<div id="F"><h4>CONSUMER POLICY</h4>>
+<br>
+<a href="https://www.flipkart.com/pages/returnpolicy?otracker=${otracker}_navlinks">
+<h5 id="CO">Cancellation & Return </h5></a>
+<a href="https://www.flipkart.com/pages/terms?otracker=${otracker}_navlinks">
+<h5 id="CO">Terms Of Use </h5></a>
+<a href="https://www.flipkart.com/pages/paymentsecurity?otracker=${otracker}_navlinks">
+<h5 id="CO">Security</h5></a>
+<a href="https://www.flipkart.com/pages/privacypolicy?otracker=${otracker}_navlinks">
+<h5 id="CO">Privacy</h5></a>
+<a href="https://www.flipkart.com/sitemap?otracker=${otracker}_navlinks">
+<h5 id="CO">Sitemap </h5></a>
+<a href="https://www.flipkart.com/pages/grievance-redressalmechanism?otracker=${otracker}_navlinks">
+<h5 id="CO">Grievance Redressal </h5></a>
+<a href="https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=${otracker}_navlinks">
+<h5 id="CO">EPR Compliance </h5></a></div>
+</aside><br><br></div>
+<div id="subb">
+<aside id="AB">
+<h4 id="ABO">MAIL Us: </h4><br>
+<h5 id="CO">Flipkart Internet Private Limted,</h5>
+<h5 id="CO">Buildings Alyssa, Begonia & </h5>
+<h5 id="CO">Clove Embassy Tech Village, </h5>
+<h5 id="CO">Bengaluru,560103, </h5>
+<h5 id="CO">Karnataka, India </h5>
+</aside>
+<aside id="AB">
+<h4 id="ABO">Registered Office Address: </h4><br>
+<h5 id="CO">Flipkart Internet Private Limted,</h5>
+<h5 id="CO">Buildings Alyssa, Begonia & </h5>
+<h5 id="CO">Clove Embassy Tech Village, </h5>
+<h5 id="CO">Bengaluru,560103, </h5>
+<h5 id="CO">Karnataka, India </h5>
+<h5 id="CO">CIN:U51109KA2012PTC066107 </h5>
+<h5 id="CO">Telephone:044-45614700 /044-67415800 </h5>
+</aside>
+</div>
+</div>
+<div id="AC">
+<aside id="AB">
+<h3 id="CO"> Become a Seller </h3>
+</aside>
+<aside id="AB">
+<h3 id="CO"> Advertise </h3>
+</aside>
+<aside id="AB">
+<h3 id="CO"> Gift Cards </h3>
+</aside>
+<aside id="AB">
+<h3 id="CO"> Help Center </h3>
+</aside>
+<aside id="AB">
+<h3 id="CO"> 2007-2024 Flipkart.com </h3></aside>
+<aside id="AB">
+<h3 id="CO"><img src="h.jpg" width="250px"></h3>
+</aside>
+</div>
+</div>
+<div>
+<h1 id="scro"><marquee>Developed By Maneesha, Anand Info Tech </marquee></h1>
+</footer>
+</div>
+</div>
+</body>
+</html>
